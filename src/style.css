@@ -30,6 +30,7 @@ overruls the others if you use more than one*/
 .highlight{
     background: yellow;
     font-style: inherit;
+    color: black;
 }
 
 /*id can be used only once in the html file*/
