@@ -29,7 +29,7 @@ p {
 overruls the others if you use more than one*/
 .highlight{
     background: yellow;
-    font-style: italic;
+    font-style: inherit;
 }
 
 /*id can be used only once in the html file*/
