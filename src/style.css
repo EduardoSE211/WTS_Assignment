@@ -21,9 +21,9 @@ h3 {
 p {
     color: whitesmoke;
     font-size: 1.2em;
-    text-align: auto;
+    text-align: start;
     margin-left: 10%;
-    margin-right: auto;
+    margin-right: 10%;
 }
 /* class can be used so oft as you want, the last class in css 
 overruls the others if you use more than one*/
