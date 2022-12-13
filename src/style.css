@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    font-size: 3.0em;   
+}
+
+h2 {
+    color: green;
+    font-size: 2.0em;   
+}
+
+h3 {
+    color: orange;
+    font-size: 1.0em;   
+}
+
+p {
+    color: blue;
+    font-size: 1.2em;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: auto;
+}
+/* class can be used so oft as you want, the last class in css 
+overruls the others if you use more than one*/
+.highlight{
+    background: yellow;
+    font-style: italic;
+}
+
+/*id can be used only once in the html file*/
+#instructionstext {
+    color: red;
+    font-size: 2.0em;
+}
+
+#Password {
+    width:160px;
+    height: 160px;
+    padding: 40px;
+    background-color:rgb(128, 128, 128);    
+    position:absolute;
+    top:60%;
+    left:40%;
+    align-self: flex-start;
+    display: none;
+}
+
+#success {
+    width:160px;
+    height: 160px;
+    padding: 40px;
+    background-color:rgb(255, 0, 0);
+    position:absolute;
+    top:60%;
+    left:40%;
+}
+
+#Links {
+    font-size: large;
+    background-color: yellow;
+    padding: 1em;
+    width: 40%;
+    top:10%;
+    left:10%;
+    margin: 0 auto;
+}
+

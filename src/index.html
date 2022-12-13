@@ -1,17 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
-</head>
-
-<body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
-
+<html lang="en-US">
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+    </head>    
+        
+    <body>
+        <h1>Running</h1>
+        
+        <div id="Links">
+            <a title="Home" href="home.html"> &#127969; </a>
+            <a title="Finishers" href="finishers.html"> &#127941; </a>
+            <a title="Event Dates" href="event_dates.html"> &#128197; </a>
+        </div>
+        <p>Welcome to our Website here we are goin to talk about Running.</p>
+        <div>
+            <img id="istockphoto1" src="istockphoto.jpg" alt="istockphoto1">
+            <img id="BornToRun" src="born-to-run.jpg" alt="BornToRun">
+        </div>
+        <h2>Health</h2>
+        <div>
+            <p>
+                Running is very important for health. 
+                That is why at EVU-Landia we are very interested in everyone running, at least once a week. 
+                Thanks to the FH St. Pölten  <a class="highlight" title="FH St. Pölten" href="https://www.fhstp.ac.at/de/"> FH St. Pölten </a>
+                we have been able to make 65% of people in St. Pölten exercise more. 
+                That's why we want to invite you to do one of our monthly events.
+            </p>
+            <p>
+                These events consist of running between 5 and 10 km, there are different groups, and we help you reach your goals,
+                 you can see these events as the first steps towards running a half marathon one day. You can find our next Event on our <a title="Event Dates" href="event_dates.html"> &#128197; </a>.
+            </p>
+        </div>
+        <h3>Instructions</h3>
+        <p id="instructionstext">Have fun! <button id="ClickMe" onclick="onButtonClick()">Click me!</button></p>        
+        <div>
+            <img id="istockphoto2" src="istockphoto-2.jpg" alt="istockphoto2">
+        </div>    
+        <script src="script.js"></script> 
+    </body>
 </html>
